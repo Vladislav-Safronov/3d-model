@@ -1,0 +1,32 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #787d7e;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.main-page {
+  height: 100vh;
+  position: relative;
+}
+.main-page__video-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.main-page__cover-video {
+  border-radius: 5rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: cover;
+}/*# sourceMappingURL=style.css.map */
